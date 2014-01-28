@@ -1,6 +1,5 @@
 .tabs dd {
 	width: 30%;
-	transition: background .5s;
 }
 
 .tabs dd.active a {
