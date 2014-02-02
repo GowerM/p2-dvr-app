@@ -9,6 +9,7 @@
     <title>P2: DVR app</title>
     <link href='http://fonts.googleapis.com/css?family=Strait' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/foundation-icons.css" />
     <link rel="stylesheet" href="css/styles.css" />
     
     <script src="js/vendor/modernizr.js"></script>
@@ -19,7 +20,10 @@
     
     <!-- Power record -->
       <div class="row">
-
+        <ul class="button-group columns top">
+          <li><a href="#" class="button">Power</a></li>
+          <li><a href="#" class="button">Record</a></li>
+        </ul>
       </div>
     
     <!-- Channels and Volume-->
@@ -30,74 +34,87 @@
     
 
     <!-- Guide -->
-      <dl class="accordion" data-accordion>
+     
+<dl class="accordion" data-accordion>
   <dd>
     <a href="#panel1">Channels</a>
     <div id="panel1" class="content">
-      <ul class="example-orbit-content">
-  <li data-orbit-slide="headline-1">
-    <div>
-      <h2>TNT : Charmed <small> Season 3 Episode 4</small></h2>
-    </div>
-  </li>
-  <li data-orbit-slide="headline-2">
-    <div>
-      <h2>ION : Supernatural <small> Season 3 Episode 4</small></h2>
-    </div>
-  </li>
-  <li data-orbit-slide="headline-3">
-    <div>
-      <h2>CBS : Criminal Minds <small> Season 3 Episode 4</small></h2>
-    </div>
-  </li>
-</ul>
+      <dl class="tabs" data-tab>
+        <dd class="active"><a href="#panel1-1">TNT</a></dd>
+        <dd><a href="#panel1-2">ION</a></dd>
+        <dd><a href="#panel1-3">WB</a></dd>
+        <dd><a href="#panel1-4">CBS</a></dd>
+      </dl>
+      <div class="tabs-content">
+        <div class="content" id="panel1-1">
+          <h2>Charmed <small> Season 3 Episode 4</small></h2>
+        </div>
+        <div class="content" id="panel1-2">
+          <h2>Supernatural <small>Season 3 Episode 4</small></h2>
+        </div>
+        <div class="content" id="panel1-3">
+          <h2>Smallville <small> Season 5 Episode 3</small></h2>
+        </div>
+        <div class="content" id="panel1-4">
+          <h2>Criminal Minds <small> Season 3 Episode 4</small></h2>
+        </div>
+      </div>
     </div>
   </dd>
   <dd>
-    <a href="#panel2">Saved Channels</a>
+    <a href="#panel2">Saved Channels &#xf11f;</a>
     <div id="panel2" class="content">
-      <ul class="example-orbit-content">
-  <!--<li data-orbit-slide="headline-1">
-    <div>
-      <h2>TNT : Angel <small>Season 6 Episode 8</small></h2>
+      <dl class="tabs" data-tab>
+        <dd class="active"><a href="#panel2-1">TNT</a></dd>
+        <dd><a href="#panel2-2">WB</a></dd>
+        <dd><a href="#panel2-3">CN</a></dd>
+        <dd><a href="#panel2-4">Disney</a></dd>
+      </dl>
+      <div class="tabs-content">
+        <div class="content" id="panel2-1">
+          <h2>Angel <small>Season 6 Episode 8</small></h2>
+        </div>
+        <div class="content" id="panel2-2">
+          <h2>Smallville <small>Season 4 Episode 5</small></h2>
+        </div>
+        <div class="content" id="panel2-3">
+          <h2>Ed, Edd, and Eddy <small>Episode 123</small></h2>
+        </div>
+        <div class="content" id="panel2-4">
+          <h2>Radio Rebel <small>movie</small></h2>
+        </div>
       </div>
-  </li>
-  <li data-orbit-slide="headline-2">
-    <div>
-      <h2>WB : Smallville <small>Season 4 Episode 5</small></h2>
-    </div>
-  </li>
-  <li data-orbit-slide="headline-3">
-    <div>
-      <h2>Cartoon Network : Ed, Edd, and Eddy <small>Episode 123</small></h2>
-    </div>
-  </li>-->
-</ul>
     </div>
   </dd>
   <dd>
     <a href="#panel3">Recorded</a>
     <div id="panel3" class="content">
-      <ul class="example-orbit-content">
- <!-- <li data-orbit-slide="headline-1">
-    <div>
-      <h2>Criminal Minds <small>Season 3 Episode 1</small></h2>
-    </div>
-  </li>
-  <li data-orbit-slide="headline-2">
-    <div>
-      <h2>Castle <small>Season 4 Episode 6</small></h2>
-    </div>
-  </li>
-  <li data-orbit-slide="headline-3">
-    <div>
-      <h2>Supernatural <small>Season 9 Episode 10</small></h2>
-    </div>
-  </li>-->
-</ul>
+      <dl class="tabs" data-tab>
+        <dd class="active"><a href="#panel2-1">Criminal Minds</a></dd>
+        <dd><a href="#panel3-2">Castle</a></dd>
+        <dd><a href="#panel3-3">Supernatural</a></dd>
+        <dd><a href="#panel3-4">Supernatural</a></dd>
+      </dl>
+      <div class="tabs-content">
+        <div class="content active" id="panel3-1">
+          <h2>Criminal Minds <small>Season 3 Episode 1</small></h2>
+        </div>
+        <div class="content" id="panel3-2">
+          <h2>Castle <small>Season 4 Episode 6</small></h2>
+        </div>
+        <div class="content" id="panel3-3">
+          <h2>Supernatural <small>Season 9 Episode 10</small></h2>
+        </div>
+        <div class="content" id="panel3-4">
+          <h2>Supernatural <small>Season 9 Episode 11</small></h2>
+        </div>
+      </div>
     </div>
   </dd>
 </dl>
+
+
+    
   
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>

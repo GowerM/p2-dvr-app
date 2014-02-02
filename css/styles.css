@@ -5,11 +5,13 @@ h4,
 h5,
 h6,
 a,
-p {
+p,
+.top a {
   font-family: 'Strait', sans-serif;
 }
 
 
-ul li {
-	list-style: none;
+.top {
+	
+	margin: 0 auto;
 }
