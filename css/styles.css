@@ -11,6 +11,16 @@ p,
 }
 
 
-#for {
-	
+#for1 {
+	width: 190px;
+	margin: 0 -10px 0 0;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#for2 {
+	width: 190px;
+	margin: 0 10px 0 50px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
