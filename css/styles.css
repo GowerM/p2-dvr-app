@@ -20,7 +20,7 @@ body {
 /*Two buttons*/
 #for1 {
 	width: 130px;
-	margin: 0 -30px -10px 0;
+	margin: 0 10px 20px 0;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 30px;
@@ -30,7 +30,7 @@ body {
 
 #for2 {
 	width: 130px;
-	margin: 0 -10px -10px 10px;
+	margin: 0 0 20px 10px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 30px;
@@ -46,7 +46,6 @@ body {
 
 #for3 {
 	width: 70px;
-	margin-top: 20px;
 	margin-left: -8px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -58,7 +57,6 @@ body {
 
 #for4 {
 	width: 70px;
-	margin-top: 20px;
 	margin-left: 0;
 	margin-right: -20px;
 	padding-top: 30px;
@@ -69,39 +67,12 @@ body {
 
 
 
-#bottom1 {
-	margin-top: 20px;
+#bottom {
 	margin-bottom: -50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background: #76ACA5;
 	
-}
-
-#for6 {
-	width: 70px;
-	margin-top: 0;
-	margin-left: -8px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background: #76ACA5;
-}
-
-#for7 {
-	width: 70px;
-	margin-top: 0;
-	margin-left: 0;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background: #76ACA5;
-}
-
-#bottom2 {
-	margin-top: 0;
-	margin-bottom: -50px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background: #76ACA5;
 }
 
 /*Accordion*/
