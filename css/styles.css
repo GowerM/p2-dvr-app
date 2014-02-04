@@ -16,9 +16,9 @@ body {
 
 /*Two buttons*/
 #for1 {
-	width: 150px;
+	width: 130px;
 	margin: 0 -30px 10px 0;
-	padding-left: 50px;
+	padding-left: 100px;
 	padding-right: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -26,7 +26,7 @@ body {
 }
 
 #for2 {
-	width: 150px;
+	width: 130px;
 	margin: 0 10px 10px 50px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -40,7 +40,7 @@ body {
 #for3 {
 	width: 70px;
 	margin-top: 8px;
-	margin-left: 0;
+	margin-left: -10px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background: #76ACA5;
