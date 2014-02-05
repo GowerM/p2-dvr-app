@@ -18,8 +18,8 @@ body {
 /*Two buttons*/
 #for1 {
 	width: 130px;
-	padding: 50px;
 	background: #76ACA5;
+	
 }
 
 
@@ -29,13 +29,13 @@ body {
 #for2 {
 	padding: 15px;
 	background: #76ACA5;
+	
 }
 
 
-.top {
+/*.top {
 	margin-top: 50px;
-	background: #76ACA5;
-}
+}*/
 
 /*Accordion*/
 
