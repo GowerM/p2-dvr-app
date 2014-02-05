@@ -18,21 +18,15 @@ body {
 /*Two buttons*/
 #for1 {
 	width: 130px;
-	margin: 0 10px 20px 0;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin: 10px 10px 100px 0;
+	padding: 50px 70px;
 	background: #76ACA5;
 }
 
 #for2 {
 	width: 130px;
-	margin: 0 0 20px 10px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin: 10px 0 100px 10px;
+	padding: 50px 70px;
 	background: #76ACA5;
 }
 
@@ -43,10 +37,8 @@ body {
 
 
 #for3 {
-	width: 75px;
-	margin-left: -8px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin: 50px 0 10px 3px;
+	padding: 30px;
 	background: #76ACA5;
 	
 }
@@ -54,11 +46,8 @@ body {
 
 
 #for4 {
-	width: 75px;
-	margin-left: 0;
-	margin-right: -20px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin: 50px 0 10px -10px;
+	padding: 30px;
 	background: #76ACA5;
 	
 }
@@ -66,9 +55,8 @@ body {
 
 
 #bottom {
-	margin-bottom: -50px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin: 50px 0 10px 0;
+	padding: 30px;
 	background: #76ACA5;
 	
 }
@@ -76,6 +64,12 @@ body {
 /*Accordion*/
 
 #for5 {
+	background: #76ACA5;
+	color: white;
+	margin-top: 20px;
+}
+
+#for6 {
 	background: #76ACA5;
 	color: white;
 }
@@ -88,7 +82,7 @@ a {
 }
 
 img {
-	width: 10px;
+	width: 30px;
 }
 
 
