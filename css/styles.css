@@ -17,7 +17,7 @@ body {
 
 /*Two buttons*/
 #for1 {
-	width: 150px;
+	width: 130px;
 	margin: 0 10px 20px 0;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -27,7 +27,7 @@ body {
 }
 
 #for2 {
-	width: 150px;
+	width: 130px;
 	margin: 0 0 20px 10px;
 	padding-left: 50px;
 	padding-right: 50px;
