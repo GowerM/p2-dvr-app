@@ -18,14 +18,6 @@ body {
 /*Two buttons*/
 #for1 {
 	width: 130px;
-	
-	padding: 50px;
-	background: #76ACA5;
-}
-
-#for2 {
-	width: 130px;
-	
 	padding: 50px;
 	background: #76ACA5;
 }
@@ -34,24 +26,11 @@ body {
 /*Four Buttons*/
 
 
-#for3 {
-	padding: 30px;
+#for2 {
+	padding: 20px;
 	background: #76ACA5;
 }
 
-
-
-#for4 {
-	padding: 30px;
-	background: #76ACA5;
-}
-
-
-
-#bottom {
-	padding: 30px;
-	background: #76ACA5;
-}
 
 .top {
 	margin-top: 70px;
