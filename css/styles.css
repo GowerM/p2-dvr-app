@@ -12,6 +12,10 @@ body {
 	background: #2D3B3A;
 }
 
+.left {
+	margin-left: 10px;
+}
+
 .chan {
 	margin-left: 8px;
 }
